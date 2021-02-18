@@ -1,0 +1,32 @@
+$ocean: #047c97;
+$orange: #f69767;
+$grey: #7a7a7a;
+$dark_grey: #595959;
+
+@mixin h1 {
+  color: $dark_grey;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+@mixin btn {
+  padding: 17px 55px;
+  background-color: $orange;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: all 0.3s linear;
+
+  &:hover {
+    transition: all 0.3s linear;
+    background: #fff;
+    color: $orange;
+    border: 1px solid $orange;
+  }
+}

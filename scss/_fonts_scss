@@ -1,0 +1,4 @@
+@font-face {
+  font-family: 'Neue Machina ';
+  src: url('/fonts/NeueMachina-Ultrabold.ttf');
+}
